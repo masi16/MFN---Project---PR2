@@ -12,7 +12,7 @@ const AudioPlayer = ({ movieTitle, onStatusChange }) => {
     const fetchVideo = async () => {
       try {
        
-        const searchQuery = encodeURIComponent(`${movieTitle} official soundtrack theme music`);
+        const searchQuery = encodeURIComponent(`${movieTitle} movie official soundtrack theme music`);
         const response = await fetch(
           `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchQuery}&key=${YOUTUBE_API_KEY}&type=video&maxResults=1&videoCategoryId=10`
         );
