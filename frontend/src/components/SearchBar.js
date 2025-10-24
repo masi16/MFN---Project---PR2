@@ -1,7 +1,7 @@
+
 import React, { useState } from 'react';
 
-
-const SearchBar = ({ onSearch }) => { 
+const SearchBar = ({ onSearch, placeholder, buttonText }) => {
   const [query, setQuery] = useState('');
 
   const handleInputChange = (event) => {
@@ -9,7 +9,6 @@ const SearchBar = ({ onSearch }) => {
   };
 
   const handleSubmit = () => {
-
     onSearch(query);
   };
 
@@ -17,11 +16,13 @@ const SearchBar = ({ onSearch }) => {
     <div className="search-bar">
       <input
         type="text"
-        placeholder="Escribe una película que te guste..."
+       
+        placeholder={placeholder}
         value={query}
         onChange={handleInputChange}
       />
-      <button onClick={handleSubmit}>Obtener Recomendaciones</button>
+      {}
+      <button onClick={handleSubmit}>{buttonText}</button>
     </div>
   );
 };
