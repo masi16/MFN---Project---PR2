@@ -16,4 +16,10 @@ This is the most critical step to get the new audio feature working.
     
 
 
+IMPORTANT: Watch this with sound enabled
+
+Sorry about the quality, GitHub doesn't allow large files
+
+
+
     https://github.com/user-attachments/assets/2f2abb90-8754-4807-b26d-8a9343777912
