@@ -1,9 +1,8 @@
 This branch introduces the following enhancements over the base version:
-
 1.  Enhanced Interactive Modal: When a movie or TV show is clicked, the modal now includes:
     *   Screenshot Gallery: A horizontally scrolling section that displays backdrop images from the movie or show.
     *   *YouTube Audio Player: Searches for the official soundtrack on YouTube via its API and plays it invisibly ("audio-only") directly on the page.
-
+    *   
 Configure the YouTube API Key
 
 This is the most critical step to get the new audio feature working.
@@ -14,8 +13,6 @@ This is the most critical step to get the new audio feature working.
 
     const YOUTUBE_API_KEY = 'PASTE_YOUR_YOUTUBE_API_KEY_HERE';
     
-
-
 IMPORTANT: Watch this with sound enabled
 
 Sorry about the quality, GitHub doesn't allow large files
