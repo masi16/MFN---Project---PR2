@@ -1,0 +1,77 @@
+
+body {
+  background-color: #0b0c16; 
+  color: #fff;
+  font-family: 'Poppins', sans-serif; 
+  margin: 0;
+  min-height: 100vh;
+  
+  background-image: radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px),
+                    radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px);
+  background-size: 1000px 1000px, 800px 800px; 
+  background-position: 0 0, 400px 400px; 
+}
+
+
+.App-header {
+  
+ background-color: transparent; /* Fondo transparente para que se vea el cielo */
+  padding: 8rem 2rem 4rem; /* Más espacio arriba y abajo */
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+
+.header-content {
+  width: 100%; /* Ocupa el 100% del espacio disponible... */
+  max-width: 1400px; /* ...pero NUNCA más de 1400px (igual que la lista de películas) */
+  margin: 0 auto; /* Y se centra automáticamente */
+  padding: 0 2rem; 
+}
+
+
+.welcome-message {
+  font-size: 2.5rem; 
+  font-weight: 700;
+  color: #f0f0ff; 
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px rgba(181, 181, 255, 0.2); 
+}
+
+.search-bar {
+ 
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+
+.search-bar input {
+  flex-grow: 1; 
+  padding: 1rem 1.5rem;
+  border-radius: 50px; 
+  border: none;
+  background-color: #1e1e2d; 
+  color: #c9c9e8;
+  font-size: 1.1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.search-bar button {
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: none;
+  background-color: #5b62e4; 
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #4a51d0;
+}

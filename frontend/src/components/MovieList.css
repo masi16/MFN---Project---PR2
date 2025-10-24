@@ -1,0 +1,33 @@
+/* src/components/MovieList.css (Estilos de la Lista Estilo Streaming) */
+
+.movie-list-container {
+ max-width: 1400px; 
+  margin: 0 auto; 
+  padding: 2rem;
+  max-width: 90%; 
+  margin: 0 auto;
+}
+
+.section-title {
+  color: #c9c9e8;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-title svg {
+  color: #7d84f0; /* Color del icono */
+  width: 20px;
+  height: 20px;
+}
+
+.movie-list {
+  /* Cuadrícula horizontal más ajustada */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 0;
+}
